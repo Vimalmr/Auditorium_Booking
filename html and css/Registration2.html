@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="Register2.css">
+    <title>Register</title>
+</head>
+<body>
+    <h1>Event Form</h1>
+    <div id="event-form">
+        <form>
+          <label for="event-date">Date:</label>
+          <input type="date" id="event-date" name="event-date" required>
+        
+          <label for="event-start-time">Start Time:</label>
+          <input type="time" id="event-start-time" name="event-start-time" required>
+        
+          <label for="event-end-time">End Time:</label>
+          <input type="time" id="event-end-time" name="event-end-time" required>
+      
+          <label for="Avail">Auditorium:</label>
+          <select id="Avail" name="Avail" required>
+            <option value="option1">Maharaja Auditorium</option>
+            <option value="option2">Sir C.V. Raman Hall</option>
+            <option value="option3">Mahatma Gandhi hall</option>
+          </select>
+        
+          <input type="submit" value="Submit">
+        </form>
+      </div>
+      
+</body>
+</html>
